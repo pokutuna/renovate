@@ -1,0 +1,12 @@
+export declare const LANGUAGE_DART = "dart";
+export declare const LANGUAGE_DOCKER = "docker";
+export declare const LANGUAGE_DOT_NET = "dotnet";
+export declare const LANGUAGE_ELIXIR = "elixir";
+export declare const LANGUAGE_GOLANG = "golang";
+export declare const LANGUAGE_JAVA = "java";
+export declare const LANGUAGE_JAVASCRIPT = "js";
+export declare const LANGUAGE_NODE = "node";
+export declare const LANGUAGE_PHP = "php";
+export declare const LANGUAGE_PYTHON = "python";
+export declare const LANGUAGE_RUBY = "ruby";
+export declare const LANGUAGE_RUST = "rust";

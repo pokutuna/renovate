@@ -1,0 +1,11 @@
+import semver from 'semver';
+import { VersioningApi } from '../common';
+export declare const id = "semver";
+export declare const displayName = "Semantic";
+export declare const urls: string[];
+export declare const supportsRanges = false;
+declare const maxSatisfyingVersion: typeof semver.maxSatisfying;
+export declare const isVersion: (input: string) => string;
+export { isVersion as isValid, maxSatisfyingVersion };
+export declare const api: VersioningApi;
+export default api;

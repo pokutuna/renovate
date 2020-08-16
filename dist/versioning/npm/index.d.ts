@@ -1,0 +1,10 @@
+import { VersioningApi } from '../common';
+export declare const id = "npm";
+export declare const displayName = "npm";
+export declare const urls: string[];
+export declare const supportsRanges = true;
+export declare const supportedRangeStrategies: string[];
+export declare const isValid: (input: string) => string;
+export declare const isVersion: (input: string) => string;
+export declare const api: VersioningApi;
+export default api;

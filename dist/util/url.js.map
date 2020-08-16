@@ -1,0 +1,1 @@
+{"version":3,"file":"url.js","sourceRoot":"","sources":["../../lib/util/url.ts"],"names":[],"mappings":";;;AAAA,SAAgB,mBAAmB,CAAC,GAAW;IAC7C,OAAO,GAAG,CAAC,OAAO,CAAC,MAAM,EAAE,GAAG,CAAC,CAAC;AAClC,CAAC;AAFD,kDAEC","sourcesContent":["export function ensureTrailingSlash(url: string): string {\n  return url.replace(/\\/?$/, '/');\n}\n"]}

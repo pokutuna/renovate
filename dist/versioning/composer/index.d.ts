@@ -1,0 +1,10 @@
+import { VersioningApi } from '../common';
+export declare const id = "composer";
+export declare const displayName = "Composer";
+export declare const urls: string[];
+export declare const supportsRanges = true;
+export declare const supportedRangeStrategies: string[];
+export declare const isValid: (input: string) => string | boolean;
+export declare const isVersion: (input: string) => string | boolean;
+export declare const api: VersioningApi;
+export default api;

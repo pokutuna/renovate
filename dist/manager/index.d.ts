@@ -1,0 +1,10 @@
+import { RangeStrategy } from '../types';
+import { ExtractConfig, LookupUpdate, ManagerApi, PackageFile, PackageUpdateConfig, RangeConfig, Result } from './common';
+export declare function get<T extends keyof ManagerApi>(manager: string, name: T): ManagerApi[T] | null;
+export declare const getLanguageList: () => string[];
+export declare const getManagerList: () => string[];
+export declare const getManagers: () => Map<string, ManagerApi>;
+export declare function extractAllPackageFiles(manager: string, config: ExtractConfig, files: string[]): Promise<PackageFile[] | null>;
+export declare function getPackageUpdates(manager: string, config: PackageUpdateConfig): Result<LookupUpdate[]> | null;
+export declare function extractPackageFile(manager: string, content: string, fileName?: string, config?: ExtractConfig): Result<PackageFile | null>;
+export declare function getRangeStrategy(config: RangeConfig): RangeStrategy;

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../lib/manager/jenkins/index.ts"],"names":[],"mappings":";;;AAAA,qCAA+C;AAAtC,6GAAA,kBAAkB,OAAA;AAEd,QAAA,aAAa,GAAG;IAC3B,SAAS,EAAE,CAAC,oBAAoB,CAAC;CAClC,CAAC","sourcesContent":["export { extractPackageFile } from './extract';\n\nexport const defaultConfig = {\n  fileMatch: ['(^|/)plugins\\\\.txt'],\n};\n"]}

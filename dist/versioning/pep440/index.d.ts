@@ -1,0 +1,12 @@
+import { VersioningApi } from '../common';
+export declare const id = "pep440";
+export declare const displayName = "PEP440";
+export declare const urls: string[];
+export declare const supportsRanges = true;
+export declare const supportedRangeStrategies: string[];
+declare const matches: any, isVersion: any;
+export declare const isValid: (input: string) => string;
+export declare const isSingleVersion: (constraint: string) => string;
+export { isVersion, matches };
+export declare const api: VersioningApi;
+export default api;
